@@ -29,7 +29,7 @@ if (thing1==thing2){console.log('they are the same');}
 else if(thing1=='elephant' || thing2=='elephant'){console.log('one is an elephant');}
 else { console.log('not guitar or elephant');}
 */
-
+/*
 let seatsInCar=7;
 let passangers=5;
 let infants=1;
@@ -43,3 +43,13 @@ if(seatsInCar>=passangers&&carseats>=infants){
         } else {console.log('need gas bro');}}
 
 else{console.log('not ready yet');}
+*/
+
+let firstNumber=1;
+let secondNumber=2;
+
+let answer=(firstNumber+secondNumber);
+console.log(answer);
+
+console.log('the answer is '+answer);
+console.log('the answer is ', answer, firstNumber);
