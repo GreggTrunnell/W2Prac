@@ -19,11 +19,27 @@ sentance= 'later on, a different cat is '+ catAge +' old and is named '+ catName
 console.log(sentance);
 */
 
-let thing1= 'gold';
 
-if (thing1== 'tiny ball'){
-    console.log('it is a basketball');
-    } 
-else if(thing1=='elephant'){console.log('it is an elephant');
-}
-else {console.log('not ball or elephant');}
+
+/*
+let thing1='guitar';
+let thing2='basketball';
+
+if (thing1==thing2){console.log('they are the same');}
+else if(thing1=='elephant' || thing2=='elephant'){console.log('one is an elephant');}
+else { console.log('not guitar or elephant');}
+*/
+
+let seatsInCar=7;
+let passangers=5;
+let infants=1;
+let carseats=0;
+let fullTank=true;
+
+if(seatsInCar>=passangers&&carseats>=infants){
+    console.log('ready for trip');
+    if(fullTank){
+        console.log ('lets hit it');
+        } else {console.log('need gas bro');}}
+
+else{console.log('not ready yet');}
